@@ -6,7 +6,7 @@ export const experience = {
       location: "Seattle, WA",
       positions: [
         {
-          title: "Lead UI Engineer",
+          title: "UI Engineering Team Lead",
           start: "June 2019",
           end: "Present"
         },
@@ -18,14 +18,14 @@ export const experience = {
       ],
       highlights: [
         "Own UI feature development for financial trading and reporting software with over $1.2 trillion in assets under management",
-        "Collaborate with product owners and designers to conceptualize, prototype and build  new features",
+        "Collaborate with product owners and designers to conceptualize, prototype and build new features",
         "Streamline UX by integrating trading and reporting features",
-        "Build and maintain custom custom component libraries using React, Redux, Bootstrap and Storybook",
+        "Build and maintain reusable component libraries with React, Redux, Bootstrap and Storybook",
         "Write React unit tests using Jest and Enzyme",
         "Automate React component integration testing using Cypress",
         "Automate end-to-end mobile testing using Appium, Mocha and Chai",
         "Develop web views for Android and iOS applications",
-        "Mentor junior developers via paired programming and code reviews",
+        "Improve front end code quality via paired programming and code reviews",
         "Work with backend engineers to architect and document RESTful APIs",
         "Regularly demo new UI features for management and product teams",
         "Give presentations on UI topics to 100+ member engineering team",
@@ -45,15 +45,15 @@ export const experience = {
       ],
       description: "Clients included AT&T, Coca-Cola, and TDAmeritrade",
       highlights: [
-        "Collaborate across disciplines (creative, strategy, analytics, etc.) to concept, prototype and build user interfaces using appropriate technologies",
-        "Work with Program Managers and discipline leads to ensure projects are scoped and estimated correctly and completed on time and to specification",
-        "Document and socialize best practices related to front end development",
-        "Evaluate technical feasibility of designed solutions",
-        "Delegate tasks and review junior developers’ code",
-        "Implement tools and develop processes to ensure code quality",
-        "Package code and support deployment of releases",
-        "Support new business initiatives by providing technical input",
-        "Collaborate with remote development teams globally"
+        "Collaborated across disciplines (creative, strategy, analytics, etc.) to concept, prototype and build user interfaces using appropriate technologies",
+        "Worked with Program Managers and discipline leads to ensure projects are scoped and estimated correctly and completed on time and to specification",
+        "Documented and socialized best practices related to front end development",
+        "Evaluated technical feasibility of designed solutions",
+        "Delegated tasks to junior developers and review their code",
+        "Implemented tools and developed processes to ensure code quality",
+        "Packaged code and supported deployment of releases",
+        "Supported new business initiatives by providing technical input",
+        "Collaborated with remote development teams globally"
       ]
     },
     {
@@ -92,7 +92,8 @@ export const experience = {
         "Led front end development for single-page web apps and websites",
         "Made architectural decisions about application front ends",
         "Oversaw the work of junior developers",
-        "Worked effectively  with remote teams spanning various time zones and on-site with client teams in Chicago and New York"
+        "Worked effectively  with remote teams spanning various time zones and on-site with client teams in Chicago and New York",
+        "Transitioned from Flash developer to web standards developer"
       ]
     },
     {

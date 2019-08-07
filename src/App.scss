@@ -4,6 +4,7 @@ $white: white;
 $gray: #d2d2d2;
 $offwhite: #f8f8f8;
 $text: #8d8d8d;
+$action: $text;
 
 header {
   align-items: left;
@@ -26,7 +27,7 @@ header {
   h1,
   h2 {
     margin: 0;
-    transform: translateY(14px);
+    transform: translateY(0.875rem);
     transition: 0.3s all;
     padding: 0;
   }
@@ -41,6 +42,27 @@ header {
     padding: 0;
     transition-timing-function: ease-in-out;
   }
+
+  .contact {
+    bottom: 0;
+    font-size: 0.625rem;
+    line-height: 0.625rem;
+    position: absolute;
+    right: 0;
+
+    .text,
+    .icons {
+      padding-bottom: 0.1rem;
+      padding-right: 1rem;
+      text-align: right;
+      transition: 0.3s all;
+    }
+
+    .icons {
+      transform: translateY(2rem);
+      transition-timing-function: ease-in-out;
+    }
+  }
 }
 
 .scrolled {
@@ -50,6 +72,13 @@ header {
     }
     h2 {
       transform: translateY(-0.5rem);
+    }
+    .text {
+      transform: translateY(-1rem);
+    }
+
+    .icons {
+      transform: translateY(0);
     }
   }
 }
@@ -90,10 +119,6 @@ aside {
     margin-left: auto;
     margin-top: 2.75rem;
     padding: 2rem;
-  }
-
-  p {
-    margin-bottom: 0;
   }
 }
 
@@ -159,6 +184,15 @@ h4 {
 p {
   font-size: 0.875rem;
   margin-top: 0;
+}
+
+a {
+  color: $action;
+  text-decoration: none;
+
+  &:hover {
+    color: tomato;
+  }
 }
 
 .group-title {
