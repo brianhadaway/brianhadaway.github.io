@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin:400,700|Raleway:400,700&amp;display=swap");
+
+$white: white;
+$gray: #d2d2d2;
+$offwhite: #f8f8f8;
+$text: #8d8d8d;
+
+header {
+  align-items: left;
+  background: $offwhite;
+  border-bottom: 1px solid $gray;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: left;
+  left: 0;
+  overflow: hidden;
+  padding-left: 1rem;
+  position: sticky;
+  right: 0;
+  top: -40px;
+  transition: 0.3s all;
+  z-index: 10;
+
+  h1,
+  h2 {
+    margin: 0;
+    transform: translateY(14px);
+    transition: 0.3s all;
+    padding: 0;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 0;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+.scrolled {
+  header {
+    h1 {
+      transform: translateY(0);
+    }
+    h2 {
+      transform: translateY(-0.5rem);
+    }
+  }
+}
+
+.container,
+section {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.container {
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1440px;
+
+  & > div {
+    flex-basis: 75%;
+  }
+
+  & > aside {
+    flex-basis: 25%;
+  }
+}
+
+.contents {
+  position: sticky;
+  top: 90px;
+}
+
+aside {
+  .contents {
+    overflow: hidden;
+    top: 0;
+  }
+  .details {
+    background: $offwhite;
+    margin-left: auto;
+    margin-top: 2.75rem;
+    padding: 2rem;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+section {
+  margin-bottom: 4rem;
+  padding: 0 1rem 2rem;
+
+  article {
+    flex-shrink: 0;
+    flex-basis: 34%;
+    padding-bottom: 4rem;
+
+    .contents {
+      //border-right: 1px solid gray;
+      padding: 0 1rem 0 0;
+    }
+  }
+
+  ul {
+    border-bottom: 1px solid $gray;
+    margin: 0;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+}
+
+#scroll-tracker {
+  height: 1px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  line-height: initial;
+  margin-top: 0;
+  padding: 0;
+
+  strong {
+    font-weight: 700;
+  }
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 0.875rem;
+  margin-top: 0;
+}
+
+.group-title {
+  background: $white;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0 0 1rem 1rem;
+  padding: 1rem 0;
+  position: sticky;
+  top: 20px;
+  width: 33%;
+  z-index: 1;
+}
+
+.meta {
+  font-size: 0.625rem;
+  line-height: 1rem;
+}
+
+blockquote {
+  border-color: $gray;
+  border-style: solid;
+  border-width: 0 0 1px;
+  line-height: 2rem;
+  max-width: 1084px;
+  margin: 0 auto 4rem;
+  padding: 4rem;
+}
+
+footer {
+  background: $offwhite;
+  border-top: 1px solid $gray;
+  padding: 1rem;
+  text-align: center;
+  p {
+    font-size: 0.625rem;
+    margin: 0;
+  }
+}
