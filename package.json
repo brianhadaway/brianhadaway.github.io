@@ -1,6 +1,6 @@
 {
   "name": "brianhadaway.github.io",
-  "homepage": "http://brianhadaway.github.io"
+  "homepage": "http://brianhadaway.github.io",
   "version": "0.2.0",
   "private": true,
   "dependencies": {
